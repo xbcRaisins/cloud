@@ -20,7 +20,7 @@ import java.util.*;
  * @author weizeng
  * @date 2019/4/29 15:51
  */
-public class HttpClientUtils  {
+public class HttpClientUtils {
     // 编码格式。发送编码格式统一用UTF-8
     private static final String ENCODING = "UTF-8";
 
@@ -44,7 +44,7 @@ public class HttpClientUtils  {
     /**
      * 发送get请求；带请求参数
      *
-     * @param url 请求地址
+     * @param url    请求地址
      * @param params 请求参数集合
      * @return
      * @throws Exception
@@ -56,9 +56,9 @@ public class HttpClientUtils  {
     /**
      * 发送get请求；带请求头和请求参数
      *
-     * @param url 请求地址
+     * @param url     请求地址
      * @param headers 请求头集合
-     * @param params 请求参数集合
+     * @param params  请求参数集合
      * @return
      * @throws Exception
      */
@@ -115,7 +115,7 @@ public class HttpClientUtils  {
     /**
      * 发送post请求；带请求参数
      *
-     * @param url 请求地址
+     * @param url    请求地址
      * @param params 参数集合
      * @return
      * @throws Exception
@@ -127,9 +127,9 @@ public class HttpClientUtils  {
     /**
      * 发送post请求；带请求头和请求参数
      *
-     * @param url 请求地址
+     * @param url     请求地址
      * @param headers 请求头集合
-     * @param params 请求参数集合
+     * @param params  请求参数集合
      * @return
      * @throws Exception
      */
@@ -185,7 +185,7 @@ public class HttpClientUtils  {
     /**
      * 发送put请求；带请求参数
      *
-     * @param url 请求地址
+     * @param url    请求地址
      * @param params 参数集合
      * @return
      * @throws Exception
@@ -231,7 +231,7 @@ public class HttpClientUtils  {
     /**
      * 发送delete请求；带请求参数
      *
-     * @param url 请求地址
+     * @param url    请求地址
      * @param params 参数集合
      * @return
      * @throws Exception
@@ -247,6 +247,7 @@ public class HttpClientUtils  {
 
     /**
      * Description: 封装请求头
+     *
      * @param params
      * @param httpMethod
      */
@@ -324,4 +325,5 @@ public class HttpClientUtils  {
             httpClient.close();
         }
     }
+
 }

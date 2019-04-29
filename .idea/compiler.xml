@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xbc-eureka" />
+        <module name="xbc-parent" />
+        <module name="xbc-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xbc-cloud-eureka" target="1.5" />
+      <module name="xbc-cloud-parent" target="1.5" />
+      <module name="xbc-core" target="1.8" />
+      <module name="xbc-spi" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xbc-core" options="-parameters" />
+      <module name="xbc-eureka" options="-parameters" />
+      <module name="xbc-parent" options="-parameters" />
+      <module name="xbc-web" options="-parameters" />
+    </option>
+  </component>
+</project>

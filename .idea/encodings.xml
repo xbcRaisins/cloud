@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/xbc-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xbc-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xbc-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbc-system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xbc-web" charset="UTF-8" />
   </component>
 </project>

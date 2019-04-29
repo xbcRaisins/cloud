@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xbc-eureka" />
         <module name="xbc-parent" />
+        <module name="xbc-system" />
         <module name="xbc-web" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="xbc-core" options="-parameters" />
       <module name="xbc-eureka" options="-parameters" />
       <module name="xbc-parent" options="-parameters" />
+      <module name="xbc-system" options="-parameters" />
       <module name="xbc-web" options="-parameters" />
     </option>
   </component>

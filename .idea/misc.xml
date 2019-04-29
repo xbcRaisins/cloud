@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/xbc-parent/pom.xml" />
         <option value="$PROJECT_DIR$/xbc-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/xbc-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xbc-system/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

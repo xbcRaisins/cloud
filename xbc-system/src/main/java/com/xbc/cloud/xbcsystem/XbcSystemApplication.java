@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-@MapperScan(basePackages = {"com.xbcraisins.wgr.xgrcommonservice.dao"})
+@MapperScan(basePackages = {"com.xbc.cloud.xbcsystem.dao"})
 public class XbcSystemApplication {
 
     public static void main(String[] args) {

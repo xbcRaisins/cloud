@@ -13,16 +13,7 @@
         <module>xbc-parent</module>
         <module>xbc-eureka</module>
         <module>xbc-web</module>
-        <module>xbc-core</module>
+        <module>xbc-system</module>
     </modules>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

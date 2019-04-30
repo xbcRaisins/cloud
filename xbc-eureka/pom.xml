@@ -6,10 +6,13 @@
         <artifactId>xbc-parent</artifactId>
         <groupId>com.xbc.cloud</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../xbc-parent</relativePath>
     </parent>
 
     <groupId>com.xbc.cloud</groupId>
     <artifactId>xbc-eureka</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -23,14 +26,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

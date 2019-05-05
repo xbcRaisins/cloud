@@ -1,4 +1,4 @@
-package com.xbc.web.xbcweb.spider;
+package com.xbc.cloud.xbcsystem.spider;
 
 import cn.edu.hfut.dmic.webcollector.model.CrawlDatums;
 import cn.edu.hfut.dmic.webcollector.model.Page;

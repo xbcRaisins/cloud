@@ -1,5 +1,6 @@
 package com.xbc.cloud.xbcsystem.controller;
 
+import com.xbc.cloud.xbcsystem.dto.ApiResult;
 import com.xbc.cloud.xbcsystem.entity.User;
 import com.xbc.cloud.xbcsystem.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,13 +19,12 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
-
     @Autowired
     UserService userService;
 
     @RequestMapping("/findAll")
-    public List<User> findAll() {
-        return userService.findAll();
+    public ApiResult<List<User>> findAll() {
+        List<User> userList = userService.findAll();
+        return new ApiResult<>(userList);
     }
-
 }
